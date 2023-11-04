@@ -1,5 +1,5 @@
 ############################################################
-# Maya Dunlap
+# Maya, Venkata, Sai, Akash
 # MENG 5930 - Modern Robotics
 # Lab 10: PincherX 100 Robot Arm's Forward Kinematics Using
 #         Screw Theory
@@ -13,15 +13,17 @@ import time
 
 def main():
     # Define the joint angles in radians considering the joint limits
-    waist_joint    = radians(0.0)       # Limit: -180 to 180
-    shoulder_joint = radians(0.0)       # Limit: -111 to 107
-    elbow_joint    = radians(-90.0)      # Limit: -121 to 92
-    wrist_joint    = radians(90.0)      # Limit: -100 to 123
-    
-    # waist_joint    = radians(50.0)       # Limit: -180 to 180
+    # Pose 1
+    waist_joint    = radians(0.0)          # Limit: -180 to 180
+    shoulder_joint = radians(0.0)          # Limit: -111 to 107
+    elbow_joint    = radians(-90.0)        # Limit: -121 to 92
+    wrist_joint    = radians(90.0)         # Limit: -100 to 123
+
+    # # Pose2
+    # waist_joint    = radians(50.0)        # Limit: -180 to 180
     # shoulder_joint = radians(-15.0)       # Limit: -111 to 107
-    # elbow_joint    = radians(21.0)      # Limit: -121 to 92
-    # wrist_joint    = radians(70.0)      # Limit: -100 to 123
+    # elbow_joint    = radians(21.0)        # Limit: -121 to 92
+    # wrist_joint    = radians(70.0)        # Limit: -100 to 123
     joint_positions = [waist_joint,
                        shoulder_joint,
                        elbow_joint,
