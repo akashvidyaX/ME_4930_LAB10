@@ -1,5 +1,5 @@
 ############################################################
-# Maya Dunlap
+# Maya, Venkata, Sai, Akash
 # MENG 5930 - Modern Robotics
 # Lab 10: PincherX 100 Robot Arm's Forward Kinematics Using
 #         Screw Theory
